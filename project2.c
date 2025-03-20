@@ -71,8 +71,8 @@ int main()
         listptr test1=result;
         while(test1->Element!=-1 && test1->index!=-1)
         {
-            listptr test2=result->ptr;
-            listptr store=result;
+            listptr test2=test1->ptr;
+            listptr store=test1;
             while(test2->Element!=-1 && test2->index!=-1)
             {
                 if(test1->Element==test2->index)
