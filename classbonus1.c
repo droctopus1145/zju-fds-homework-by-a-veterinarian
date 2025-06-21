@@ -16,8 +16,8 @@ int main()
 {
     int K,N,M,i,temp;
     scanf("%d %d %d",&K,&N,&M);//K为最大kick数，N为队列容量，M为总元素个数
-    queue access[1000];
-    int cache[1000];//以数组形式创建两个队列
+    queue access[100];
+    int cache[100];//以数组形式创建两个队列
     int front_a,rear_a=0;
     int front_c,rear_c=0;//定义首尾索引
     for(i=0;i<M;i++)
